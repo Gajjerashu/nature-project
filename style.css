@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 70px; /* Adjust based on navbar height */
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+p{
+    font-family: 'Rubik', sans-serif;
+}
+
+.Services {
+    width: 100%; /* Adjust width as per your requirement */
+    height: 600px; /* Fixed height */
+}
+
+.Services .card {
+    height: 100%; /* Makes all cards equal height */
+}
+
+.Services .card-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Services .container {
+    max-width: 1200px; /* Optional: Limits the container width */
+}
+
+.card-body i{
+    width: 11%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Services, .team, .contact {
+    margin-top: 50px;
+}
+
